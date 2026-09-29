@@ -1,0 +1,5 @@
+item,value,description
+primary_trackA_candidate,A1,Primary ML finalist for no-odds setting
+primary_trackB_candidate,B1,Primary ML finalist for with-odds setting
+trackB_benchmark,B0,Market benchmark (bookmaker implied)
+demo_predictor_note,xg_proxy,Interactive app uses xG proxy for single-match demo and final tables for thesis evidence

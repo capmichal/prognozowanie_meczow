@@ -1,0 +1,17 @@
+category,path,exists,size_bytes,sha256,checked_at_utc
+final_artifact,outputs/final_summary_trackA.csv,True,451,68e5d6451a79bafa10ba0a6a5cd0e40732c3248abfdc7fd04d0df21dc7d0fef5,2026-05-06T18:30:28.074472+00:00
+final_artifact,outputs/final_summary_trackB.csv,True,620,6620e3084f6fcd24c3a4ae26d3d03898c83d16062baae8898dc6e0c93d884c9d,2026-05-06T18:30:28.074472+00:00
+final_artifact,outputs/final_significance.csv,True,1532,f36f24b2361c7fffe01b17d380c06a3660c4528a6bbe524127f9043db2bf8cd1,2026-05-06T18:30:28.074472+00:00
+final_artifact,outputs/final_report_manifest.csv,True,401,c6368571bd140ea53cacb1f3145339736d03f6ee0e75b502b92fd8b980bc1794,2026-05-06T18:30:28.074472+00:00
+final_artifact,outputs/final_model_cards.csv,True,972,218bf2e0e5776b336431af95c0643a1cb311f1398f65160713e4bfecec9e9fbf,2026-05-06T18:30:28.074472+00:00
+final_artifact,outputs/final_decision_log.csv,True,222,61670c7d51894217333c69bde251e835aa366f34489f22f859d4817dadae4f5b,2026-05-06T18:30:28.074472+00:00
+final_artifact,outputs/final_predict_setup.csv,True,336,7c38b675431ee4722d149760c2182493b73abe979bc04a36178a104d4acdfc23,2026-05-06T18:30:28.074472+00:00
+documentation,FINAL_README.md,True,3975,1dc51c03f9bfa0b0205d69586796a1f6753cee9e5be642c0bd06fea6c82b6344,2026-05-06T18:30:28.074943+00:00
+documentation,day0_szkielet_pracy_i_mapa_drogi.md,True,15269,466a812baf07182b8410b08c8251d9bd9665605815ff9bd4424bef70a3ab1b6f,2026-05-06T18:30:28.074943+00:00
+documentation,day1_final_scoreboard_i_scope.md,True,2016,38cba9060b8b73b1ad607f9e9d6a11d4972898976d24b29a957e52bcea8c647f,2026-05-06T18:30:28.074943+00:00
+documentation,day2_final_significance.md,True,2653,061be82a62a7a565441ad97fdfb3f249192a4ac5434e115426ce2b69b229d33b,2026-05-06T18:30:28.074943+00:00
+documentation,day3_final_pipeline_report.md,True,1692,fd146eb6d1725e4d7e686dbcd61653a4dacfdd236ab999a1f4cc790eeae956c2,2026-05-06T18:30:28.074943+00:00
+documentation,day4_predict_mode_i_app_final.md,True,1869,32f87ab088ce6ff7d7dd6737a17daba361bc99b6c4c5b2ca278f536fc0fadae6,2026-05-06T18:30:28.074943+00:00
+documentation,day5_final_docs.md,True,1099,0b47e7340425d421ebd7c4e6416bc661bdd5c37288f39023961f659cfa3bd845,2026-05-06T18:30:28.074943+00:00
+documentation,day6_slajdy_i_narracja.md,True,6242,039ea58308d86dc98e23cbef1ad2536e69de5f26867fdaf34acf6f02749fadf0,2026-05-06T18:30:28.074943+00:00
+documentation,day6_notatka_dzienna.md,True,766,e8acc7f222ba68555873549bc10fdb66d0648f08447410566ca871ffd0f82f34,2026-05-06T18:30:28.074943+00:00

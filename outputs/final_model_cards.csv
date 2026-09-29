@@ -1,0 +1,6 @@
+source,candidate_id,model,feature_pack,variant,log_loss_mean,brier_mean,role,track,rank_by_log_loss,is_final_primary,is_final_secondary,narrative_label,is_market_benchmark,is_recommended_for_demo
+stageF2,A2,poisson_covariates,fs_base_elo,cov_no_decay,1.003957114106099,0.5965897700538279,statistical_control_candidate,A,1,False,True,Statistical control finalist,,False
+stageI5,A1,ml_extra_trees,fs_base_elo,,1.0040960090274569,0.5993050589687171,primary_ml_candidate,A,2,True,False,Primary ML finalist,,True
+stageI5,B0,bookmaker_implied,fs_base_elo,,0.9754545349485948,0.5789463898334418,market_benchmark,B,1,False,False,Market benchmark,True,True
+stageI5,B1,ml_extra_trees,fs_base_elo,,0.99010033848026,0.588825447792533,primary_ml_candidate,B,2,True,False,Primary ML finalist,False,True
+stageF2,B2,dc_covariates_fixed_rho,fs_base_elo,cov_no_decay,0.992601866419707,0.5890042415384885,statistical_control_candidate,B,3,False,True,Statistical control finalist,False,False

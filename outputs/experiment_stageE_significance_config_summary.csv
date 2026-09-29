@@ -1,0 +1,4 @@
+config_id,n,log_loss_mean,log_loss_std
+ml_extra_trees:fs_multiwindow_rest:sigmoid,3197,1.0179160294084875,0.4262132766891119
+ml_extra_trees:fs_multiwindow:sigmoid,3197,1.0181310527585918,0.427446338434596
+ml_logreg:fs_multiwindow:sigmoid,3197,1.0208866991657586,0.422135383047719

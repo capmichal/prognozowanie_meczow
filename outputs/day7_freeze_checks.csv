@@ -1,0 +1,8 @@
+check,ok,detail
+trackA_non_empty,True,rows=2
+trackB_non_empty,True,rows=3
+significance_non_empty,True,rows=4
+trackA_has_A1,True,candidate A1 present
+trackB_has_B0,True,candidate B0 present
+trackB_benchmark_rank1,True,B0 rank_by_log_loss == 1
+significance_B1_vs_B0,True,B1 vs B0 decision as expected

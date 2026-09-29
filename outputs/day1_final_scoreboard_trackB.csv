@@ -1,0 +1,4 @@
+source,candidate_id,model,feature_pack,variant,log_loss_mean,brier_mean,role
+stageI5,B0,bookmaker_implied,fs_base_elo,,0.9754545349485948,0.5789463898334418,market_benchmark
+stageI5,B1,ml_extra_trees,fs_base_elo,,0.99010033848026,0.588825447792533,primary_ml_candidate
+stageF2,B2,dc_covariates_fixed_rho,fs_base_elo,cov_no_decay,0.992601866419707,0.5890042415384885,statistical_control_candidate

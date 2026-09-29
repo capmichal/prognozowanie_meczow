@@ -1,0 +1,82 @@
+league,fold_id,train,valid,test,feature_set,model,selected_params,log_loss,brier,n
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_logreg,"{""C"": 0.1}",1.0118621544941713,0.602429584693084,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0133922086604974,0.606320667546158,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0356996653721007,0.6219048197705956,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.0889224019098498,0.6480191757899025,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.010915609133872,0.6046400645957896,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",1.0141836848260626,0.6038480870203192,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0365766463606139,0.621452024428974,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.0726347547697865,0.63889377227846,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,reference,bookmaker_implied,,0.9625018386506841,0.5711413551219607,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_logreg,"{""C"": 0.1}",1.0369905499853211,0.6264318113153614,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0427258982226255,0.628351635178467,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0731701726796479,0.6473107272612394,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.1226845091143907,0.6693099477915874,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",1.0407184025180671,0.6276912136471415,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.048208301887945,0.631102404247935,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.072438846460779,0.6470330648202607,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.1182442382218944,0.6662949278708625,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,reference,bookmaker_implied,,0.9712354441418397,0.5779172147300805,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_logreg,"{""C"": 0.1}",1.008175384523198,0.6063920847570736,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0126399580991705,0.6082594015285717,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_catboost,"{""depth"": 6, ""iterations"": 400, ""l2_leaf_reg"": 3.0, ""learning_rate"": 0.05}",1.0505705851280576,0.6329001157881115,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.078293438887919,0.6478584910799466,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0112713474303467,0.6076141618301554,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",1.0156161460838538,0.6110752746338975,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_catboost,"{""depth"": 6, ""iterations"": 400, ""l2_leaf_reg"": 3.0, ""learning_rate"": 0.05}",1.0527635936866335,0.6339424651106629,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.07736989159347,0.6463894961824903,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,reference,bookmaker_implied,,0.9882467699524411,0.5874514641310945,306
+EPL,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_logreg,"{""C"": 0.1}",0.9409014743794163,0.5571536062818819,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",0.9484434600790346,0.560152292191739,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9647340050538815,0.5706665836305702,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",0.9716756633717225,0.5762074826856719,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",0.9382417656632822,0.5560429738224121,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",0.9482118299089438,0.5601925301303863,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9603045185359381,0.5684469511749161,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",0.9756691339664527,0.5784361846672531,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,reference,bookmaker_implied,,0.8947981667371053,0.5233790169287679,379
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0071124004687446,0.6005947307557679,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_logreg,"{""C"": 0.1}",1.008529461098577,0.6000568666208301,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.022217399950514,0.610374398404148,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.05722860229501,0.6259018357948772,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0080976699631337,0.6012051889219255,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.019785547433843,0.6084911479502583,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",1.0521089673756645,0.6075705494419663,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.0617216482908791,0.6286489536133082,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,reference,bookmaker_implied,,0.9732089102123394,0.5750172301971416,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0332715670693151,0.6194724993228469,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0527446098042408,0.6293452782205446,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_logreg,"{""C"": 0.1}",1.0612071892467458,0.6352634281772667,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.084892578884769,0.6462938501268017,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0318234717890673,0.6188861434963219,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0594743257541739,0.634281991092518,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",1.063211511252911,0.6375964306703578,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.0755544755824582,0.6412309736904395,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,reference,bookmaker_implied,,1.0070132279723896,0.5982478644977783,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1, ""n_estimators"": 500}",1.0441590878950333,0.6254847569258383,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_logreg,"{""C"": 0.1}",1.0602386051853638,0.6340450817705731,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0665298332785,0.6391161392722967,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.1291841388052926,0.6713538455175476,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.0435937766613894,0.6244169762725011,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",1.0564101462997337,0.631815935754563,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0622058929587805,0.6367210203611134,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.1245707226190276,0.6677621554969416,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,reference,bookmaker_implied,,1.0102501469680754,0.6025155162261767,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1, ""n_estimators"": 500}",1.02992245006026,0.6182352905690253,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_logreg,"{""C"": 0.1}",1.0435117643317189,0.6272355982051269,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.047524440248196,0.6307990598654045,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.0701624627034978,0.6417665812021223,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",1.027180456835395,0.6162443440499611,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",1.055961279347333,0.628736192000342,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_catboost,"{""depth"": 6, ""iterations"": 400, ""l2_leaf_reg"": 3.0, ""learning_rate"": 0.05}",1.058955636777176,0.638039831564462,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.066665115700053,0.6386483191240949,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,reference,bookmaker_implied,,0.9839405174145234,0.5880212888987466,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1, ""n_estimators"": 500}",1.0342949371447585,0.6203864458860266,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_logreg,"{""C"": 0.1}",1.0389258759884763,0.6228016494178497,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.060236137700231,0.6364227894017277,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.0777986654872431,0.6414532070366633,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_logreg,"{""C"": 0.1}",1.0297868051951762,0.6161981069028574,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1, ""n_estimators"": 500}",1.035501163866057,0.6216558072373223,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0593343812638716,0.6357927205486597,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,fs_multiwindow_rest,ml_xgboost,"{""colsample_bytree"": 0.9, ""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500, ""subsample"": 0.9}",1.075958584048791,0.6411575167221661,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,reference,bookmaker_implied,,0.9878957924879556,0.5868265577692297,380

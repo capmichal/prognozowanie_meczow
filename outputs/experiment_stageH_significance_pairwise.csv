@@ -1,0 +1,2 @@
+config_a,config_b,delta_mean,ci_2_5,ci_97_5,p_two_sided,p_left,p_right,interpretation,note
+market_plus_residual_logreg,bookmaker_implied,-4.001989783231075e-05,-0.00034392318829753094,0.0003220158467296397,0.7464,0.6377,0.3732,a_better,"bootstrap over fold-level log_loss, stratified by league"

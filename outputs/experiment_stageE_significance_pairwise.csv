@@ -1,0 +1,4 @@
+config_a,config_b,delta_mean,ci_2_5,ci_97_5,p_two_sided,p_left,p_right,interpretation
+ml_extra_trees:fs_multiwindow_rest:sigmoid,ml_logreg:fs_multiwindow:sigmoid,-0.0029706697572711247,-0.008248395647937393,0.0022577407395689784,0.2772,0.8614,0.1386,a_better
+ml_extra_trees:fs_multiwindow:sigmoid,ml_logreg:fs_multiwindow:sigmoid,-0.002755646407166757,-0.008097758806907189,0.0025417212186759244,0.32,0.84,0.16,a_better
+ml_extra_trees:fs_multiwindow_rest:sigmoid,ml_extra_trees:fs_multiwindow:sigmoid,-0.00021502335010436808,-0.0014025927934600653,0.0009806086080887254,0.7294,0.6353,0.3647,a_better

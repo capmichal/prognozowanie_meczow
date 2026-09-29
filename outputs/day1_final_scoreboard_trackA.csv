@@ -1,0 +1,3 @@
+source,candidate_id,model,feature_pack,variant,log_loss_mean,brier_mean,role
+stageI5,A1,ml_extra_trees,fs_base_elo,,1.0040960090274569,0.5993050589687171,primary_ml_candidate
+stageF2,A2,poisson_covariates,fs_base_elo,cov_no_decay,1.003957114106099,0.5965897700538279,statistical_control_candidate

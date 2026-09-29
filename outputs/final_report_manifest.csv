@@ -1,0 +1,4 @@
+artifact,path,source,purpose
+final_summary_trackA,outputs/final_summary_trackA.csv,day1_final_scoreboard_trackA,Final Track A scoreboard for thesis tables
+final_summary_trackB,outputs/final_summary_trackB.csv,day1_final_scoreboard_trackB,Final Track B scoreboard for thesis tables
+final_significance,outputs/final_significance.csv,day2_final_significance_summary,Final paired significance comparisons

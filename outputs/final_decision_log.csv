@@ -1,0 +1,5 @@
+track,left,right,decision_logloss,p_value
+A,A1,A2,no_significant_difference,0.98046875
+B,B1,B0,right_significantly_better,0.01171875
+B,B2,B0,right_significantly_better,0.0078125
+B,B1,B2,no_significant_difference,0.6796875

@@ -1,0 +1,3 @@
+track,primary_finalist,secondary_finalist,decision_note
+A,A1,A2,Primary = najlepszy model ML (I.5); Secondary = najlepszy Poisson/DC (F2) jako kontrola statystyczna.
+B,B1,B2,Benchmark obowiazkowy: B0 bookmaker_implied; porownanie modeli B1 i B2 vs B0.

@@ -1,0 +1,235 @@
+league,fold_id,train,valid,test,track,feature_pack,model,selected_params,log_loss,brier,n
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",0.9948586399494835,0.5913125106165487,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0043529298396117,0.6001320407158848,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0142288633750618,0.6075436919781871,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0197947585108156,0.6098184811019675,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0675008543046651,0.6298719013243397,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.399078809087975,0.738769020795666,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0024812518903115,0.599217054517213,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.009085555637597,0.6046423240253236,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_logreg,"{""C"": 0.1}",1.02014034581997,0.603981340610772,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0289524046279253,0.6159723567612291,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.05775870245196,0.6295632932324081,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.3943862242172864,0.7257524857584744,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0223475953941656,0.6124419439232386,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0354453311679077,0.6223144456635636,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0506961655161453,0.6326235603495891,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0641662252771347,0.6427348510546802,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.1103136129451634,0.664737734255219,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4974981667916156,0.79440635798749,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_logreg,"{""C"": 0.1}",1.0275719156025722,0.610431078817969,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0306191641283702,0.6194726072054961,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0402397314104568,0.6269192373050338,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0467488750385967,0.6312381210127949,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.103145770506646,0.656482986513751,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4698890121369215,0.7895792114370115,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9932310946649763,0.5952264978286271,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.000678607182848,0.5989252685890625,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0115536666282496,0.6073468893924693,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0118286008244668,0.6064753905342212,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0398978572358362,0.6212647985621211,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.3562155029239173,0.7378526269955998,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",0.9969574264331477,0.596215396564208,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_random_forest,"{""max_depth"": null, ""min_samples_leaf"": 3}",1.0073234504936752,0.6028848413561125,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0132362399346384,0.6065776787757516,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_logreg,"{""C"": 0.1}",1.0150696003281061,0.6077437574052024,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0357903663264594,0.6177713028918032,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.3565569155769313,0.716557939147387,306
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",0.9130875044256497,0.5363862527972137,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9280789771989879,0.5460244781067131,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9285247819161826,0.5458862084412104,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",0.9296825693543888,0.5471848969272705,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9431662740376514,0.556713114629981,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.2024508021264926,0.6461324793618418,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_logreg,"{""C"": 0.1}",0.9204042786577236,0.5401247443795395,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9444281161042007,0.5569863143625993,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",0.9469641167491643,0.5582287306443521,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9579846345456771,0.5677891901769058,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9621485334879442,0.5680761961830654,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.1902620711262766,0.6329731565377369,379
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9904751213964448,0.5899062782786645,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9923327189830051,0.5898367680742658,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0017824820119392,0.5968659832250583,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.04440802960516,0.5972508442769824,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.04812618997187,0.6194801334956014,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.3270869882619627,0.7175683439530454,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9899670058191675,0.5890377245253895,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9931031518759021,0.5906814128103116,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0026944474314692,0.5974322150580685,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.036583200074435,0.6114795650719933,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_logreg,"{""C"": 0.1}",1.0508414031064903,0.6032688962008951,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.05, ""min_child_samples"": 20, ""n_estimators"": 300, ""num_leaves"": 31}",1.4182541737674694,0.7309534566384358,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0251044469976263,0.6121514952097911,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.037798367804385,0.6166479594022632,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0574544002690573,0.6270916910625489,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0788455363016016,0.6367371554576713,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0957572718755328,0.6445977955398513,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4489317490991425,0.7632591373394583,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_extra_trees,"{""max_depth"": null, ""min_samples_leaf"": 3}",1.029047383368946,0.6140000311555017,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_random_forest,"{""max_depth"": null, ""min_samples_leaf"": 3}",1.0344898406774918,0.6172672114678355,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.038457603823092,0.6172936576835278,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0933323665497572,0.6446625409602716,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_logreg,"{""C"": 10.0}",1.1061201644177792,0.6517143514081015,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4543602020229125,0.7616774626051528,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0328013737051802,0.6161205957476291,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0463089591173735,0.623644683232648,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0526457840114343,0.6255239714255756,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.060435601173509,0.6327910801346531,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.124162341752608,0.6585902949628238,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.5973367570564445,0.8091409338224302,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0338274610678317,0.6173471490762188,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.042560969673812,0.6229328769453778,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0432610866424878,0.6251852546187427,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_logreg,"{""C"": 1.0}",1.0840390262650084,0.641300304692517,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.1010709824957525,0.6510096597663505,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.6005187985637654,0.8093839657745181,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0112924408970636,0.60576569528683,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.020093738868166,0.6117635170396251,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.028272965797911,0.6186673360619453,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.038328439261534,0.6160794083531633,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0512123820543418,0.6287992152090343,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.3709947940388318,0.7458101524787133,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0153403913169374,0.6086293481045303,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0175834068576597,0.6106674118669412,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0326237193765362,0.6222993867630381,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_logreg,"{""C"": 0.1}",1.0640504609784078,0.6325146384566603,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0689962101286146,0.6421739593045999,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4515624722551161,0.777587156629567,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0106017060453978,0.6018958165720961,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0142247677927503,0.6061735140851495,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.02300375857139,0.6114672716364846,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0405143482536268,0.6224838496609797,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0697599019083213,0.6339133321270459,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.05, ""min_child_samples"": 20, ""n_estimators"": 300, ""num_leaves"": 31}",1.3473900579533182,0.736838023103051,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.021184395146273,0.6105631306813872,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0219624557029052,0.6115908920092192,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0295833326511727,0.615257152469934,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_logreg,"{""C"": 0.1}",1.0300077525913554,0.614684368424218,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0637914913889772,0.6315152508606382,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,A,fs_full,ml_lightgbm,"{""learning_rate"": 0.05, ""min_child_samples"": 20, ""n_estimators"": 300, ""num_leaves"": 31}",1.400645335239213,0.7300009061810242,380
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,bookmaker_implied,,0.9625018386506841,0.5711413551219607,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9970491336306978,0.5952266005033429,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0008533108645699,0.5912863352170494,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.005477051832891,0.6012653804982065,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0154540546306128,0.6086344597105693,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0620414738485084,0.6296276777686532,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4204474945467203,0.734177187690229,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,bookmaker_implied,,0.9625018386506841,0.5711413551219607,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9935955666928548,0.5932202695748204,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9971577365605723,0.5957764826935821,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.006414581467898,0.5990167712598344,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_logreg,"{""C"": 0.1}",1.02635433647355,0.6029353025834703,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0513833288524952,0.6266908505745189,306
+Bundesliga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4597474018997554,0.7438586001901499,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,bookmaker_implied,,0.9712354441418397,0.5779172147300805,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0061760775674107,0.6024611289405437,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0153259502252556,0.608554405127345,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0273819690298018,0.6179029397771311,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0510245518983385,0.6320074823150048,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.1036375164507373,0.6635092149336714,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.5037762801332792,0.7915962548662778,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,bookmaker_implied,,0.9712354441418397,0.5779172147300805,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.012064445493198,0.6074295272422782,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_logreg,"{""C"": 0.1}",1.0136921114592183,0.6027392136188684,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.021984684599356,0.6140562827737679,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0372312821566805,0.6240620170961437,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0954312321769044,0.6533592545745435,306
+Bundesliga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.5223823634532232,0.7849219649625562,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.976994161836757,0.582414980812901,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",0.9815499469232433,0.5862810475701647,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,bookmaker_implied,,0.9882467699524411,0.5874514641310945,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9897915631939865,0.5909612142825658,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.001844041735255,0.5998817363806077,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0261692444470663,0.6134887491749306,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.05, ""min_child_samples"": 20, ""n_estimators"": 300, ""num_leaves"": 31}",1.3548956432356836,0.725538797778473,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9811731528120632,0.585494074034045,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9816354443376879,0.5860940652469362,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.987261981012071,0.5883302421662644,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,bookmaker_implied,,0.9882467699524411,0.5874514641310945,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_logreg,"{""C"": 0.1}",1.008024463564727,0.6037416603866373,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0152275394446333,0.6050464264879681,306
+Bundesliga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.3218727309383191,0.7017114563098359,306
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,bookmaker_implied,,0.8947981667371053,0.5233790169287679,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",0.9069649633460284,0.5317423176554642,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9079300442575746,0.5313240238141286,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9232189707565363,0.544095432064646,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9310191186615648,0.5475928656092313,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",0.9472309237293405,0.5620530288945714,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.2950411036655218,0.6966182823596972,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,bookmaker_implied,,0.8947981667371053,0.5233790169287679,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_logreg,"{""C"": 0.1}",0.9137436784001508,0.5351678145776929,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9172103729534394,0.5377721588467792,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9350271260256433,0.5485007894022973,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9399845598444778,0.5535591594578612,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",0.9545160753815315,0.5651210820627447,379
+EPL,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.246492210598999,0.6583205625285407,379
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,bookmaker_implied,,0.9732089102123394,0.5750172301971416,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9739258880746509,0.5762619124923268,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.97628043938478,0.5790890679752743,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9871045000752982,0.5844548547925428,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.036493053183012,0.6119714046219885,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0442966622564027,0.5931374607942964,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.05, ""min_child_samples"": 20, ""n_estimators"": 300, ""num_leaves"": 31}",1.417727458433536,0.736169423262787,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,bookmaker_implied,,0.9732089102123394,0.5750172301971416,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9741160757183183,0.5770511300145704,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.976310281087224,0.5778409973230733,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9782047848604162,0.5787752188294388,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0190608302279338,0.5972777096434932,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_logreg,"{""C"": 0.1}",1.0576306347403357,0.603392568234434,380
+EPL,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.05, ""min_child_samples"": 20, ""n_estimators"": 300, ""num_leaves"": 31}",1.4095718278342184,0.7265731617702571,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,bookmaker_implied,,1.0070132279723896,0.5982478644977783,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0151499055887152,0.6027703406935764,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.026992155747779,0.6076710497337564,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0423729437809934,0.6160864655745504,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0572926259718036,0.6276294903806593,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0707013645342065,0.627544820844125,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4739718545733296,0.750669479420558,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,bookmaker_implied,,1.0070132279723896,0.5982478644977783,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0187228682011202,0.605508545494181,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_extra_trees,"{""max_depth"": null, ""min_samples_leaf"": 3}",1.0195649984932829,0.6054011895331116,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0325765945949659,0.6120583234825502,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_logreg,"{""C"": 0.1}",1.0721112070942949,0.6367735901276835,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0826203721829741,0.6366573146144865,380
+EPL,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.4700895636147535,0.7533029332621383,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,bookmaker_implied,,1.0102501469680754,0.6025155162261767,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0236163194378192,0.6077886748295865,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0348897161045187,0.6158297932993917,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0356040562573665,0.6149751943655593,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0426008447414907,0.6231985698645485,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.097207857511935,0.6488172351489153,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.5848468290046305,0.7867856176367891,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,bookmaker_implied,,1.0102501469680754,0.6025155162261767,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0215971269363553,0.6080966072588848,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0258178673781362,0.6107677354211634,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0303589271231053,0.6146162441375224,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0684864999844925,0.6321651596409729,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_logreg,"{""C"": 10.0}",1.0882606455515973,0.64888244581057,380
+LaLiga,1,"14-15,15-16,16-17",17-18,18-19,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.5144494876453043,0.760978071627715,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,bookmaker_implied,,0.9839405174145234,0.5880212888987466,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9915328833269467,0.5937248031514754,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",0.9947027741012604,0.5968479604263212,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",0.9956467614848716,0.5977443125182605,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.019401988996163,0.603471578780784,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0218299712376633,0.6135085559943971,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.2921410889901528,0.7106575608962441,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,bookmaker_implied,,0.9839405174145234,0.5880212888987466,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",0.9966052013644064,0.5961986575721101,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_random_forest,"{""max_depth"": null, ""min_samples_leaf"": 3}",0.9989219356975512,0.5984040172787118,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.011342069935831,0.6072350853679229,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0310409199908244,0.6207263046775188,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_logreg,"{""C"": 0.1}",1.0442006641685535,0.6199226454932246,380
+LaLiga,2,"14-15,15-16,16-17,17-18",18-19,19-20,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.05, ""min_child_samples"": 20, ""n_estimators"": 300, ""num_leaves"": 31}",1.3402039881477248,0.7261235959555725,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,bookmaker_implied,,0.9878957924879556,0.5868265577692297,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_logreg,"{""C"": 0.1}",1.0009694442289356,0.5951994161993425,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0048229748574378,0.5974972219508502,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0136001324990263,0.6019646784557074,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0258124827279786,0.611264126326171,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0585523932948038,0.6289763598986147,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_base_elo,ml_lightgbm,"{""learning_rate"": 0.05, ""min_child_samples"": 20, ""n_estimators"": 300, ""num_leaves"": 31}",1.3941845450787318,0.7532561060517088,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,bookmaker_implied,,0.9878957924879556,0.5868265577692297,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_extra_trees,"{""max_depth"": 8, ""min_samples_leaf"": 1}",1.0069249063629606,0.5995396338335278,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_random_forest,"{""max_depth"": 8, ""min_samples_leaf"": 3}",1.0128106822480076,0.6017497923038067,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_logreg,"{""C"": 0.1}",1.0236113739068604,0.6110692452886192,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_catboost,"{""depth"": 5, ""iterations"": 600, ""l2_leaf_reg"": 5.0, ""learning_rate"": 0.03}",1.0261601413115078,0.6123174006528475,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_xgboost,"{""learning_rate"": 0.03, ""max_depth"": 3, ""n_estimators"": 500}",1.0536121538513334,0.625282593474504,380
+LaLiga,3,"14-15,15-16,16-17,17-18,18-19",19-20,20-21,B,fs_full,ml_lightgbm,"{""learning_rate"": 0.03, ""min_child_samples"": 30, ""n_estimators"": 500, ""num_leaves"": 31}",1.3922835121557084,0.7420218087914248,380
